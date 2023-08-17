@@ -31,3 +31,13 @@
 
 
 <h2>4-3</h2>
+
+- 표 만들기 : table
+- 캡션 넣기 : caption(표제목)
+- 행 만들기 : tr(row)
+- 열 만들기 : td(col)
+
+표의 구조를 지정 하기
+- thead : 제목
+- tbody : 본문
+- tfoot : 요약

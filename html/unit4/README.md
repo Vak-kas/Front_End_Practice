@@ -41,3 +41,10 @@
 - thead : 제목
 - tbody : 본문
 - tfoot : 요약
+
+표 행이나 열 함치기
+
+- rowspan = "합칠 셀의 개수"
+- colspan= " 합칠 셀의 개수"
+
+열을 묶어 주는 col, colgroup -> 특정 열의 배경색을 바꾸거나 하고 싶을 때

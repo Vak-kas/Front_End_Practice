@@ -20,8 +20,8 @@
 <h2>레이블</h2>
 <p>폼 요소에 레이블을 붙이는 레이블 태그</p>
 사용법 <ul>
-  <li><./label>아이디(6자이상)<input type="text"><./label></li>
+  <li><./label>아이디(6자이상)<.input type="text"><./label></li>
     <li><./label for "user-id">아이디(6자 이상)<./label><br>
-    <input type="text id="user-id"></li>
+    <.input type="text id="user-id"></li>
 </ul>
 

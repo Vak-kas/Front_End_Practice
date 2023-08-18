@@ -25,3 +25,11 @@
     <.input type="text id="user-id"></li>
 </ul>
 
+<h1>5-2</h1>
+<p>input 을 이용하여 사용자에게 입력을 요구할 수 있음.</p>
+속성
+<ul>
+  <li>텍스트와 비밀번호 나타내기 : type="text", type="password"
+  <br><i>size(필드의 길이지정), value(텍스트 필드 부분에 보여주는 내용, 비번에서는 사용  x), maxlength(최대 문자수)
+  </li>
+</ul>

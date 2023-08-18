@@ -1,4 +1,4 @@
- |<h1>5장 : 입력 양식 작성하기</h1>
+ <h1>5장 : 입력 양식 작성하기</h1>
 
 <h1> 5-1<h1>
 <h2>폼 삽입하기</h2>
@@ -83,6 +83,14 @@ input type="submit | reset" value ="버튼에 표시할 내용"
 
 <h2>이미지 버튼 추가하기</h2>
 input type="image" src="이미지 경로" alt="대체 텍스트"
+
+<h2>파일 추가</h2>
+input type="file"
+
+<h2> 히든 필드 만들때 사용하는 type="hidden"</h2>
+화면에는 보이지 않으나, 폼과 함께 서버로 전송되는 요소. 관리자는 알아야하는 정보들
+
+input type="hidden" name="이름" value="서버로 넘길값"
 
 <h2>그냥 버튼 넣기</h2>
 input type="button" value="버튼에 표시할 내용"

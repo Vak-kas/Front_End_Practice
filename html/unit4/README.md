@@ -58,14 +58,14 @@
 <h2>4-5</h2>
 
 - 다양한 멀티미디어 삽입하기
-  <object width =" 너비" height = "높이" data = " 주소"></object>    -> 얘는 닫는 태그 있어야함
-  <embed src " 파일경로" width=" 너비" height="높이">                 -> 얘는 필요없음
+  <.object width =" 너비" height = "높이" data = " 주소"></object>    -> 얘는 닫는 태그 있어야함
+  <.embed src " 파일경로" width=" 너비" height="높이">                 -> 얘는 필요없음
 
 - 오디오 삽입
-  <audio src= "오디오 파일 경로"></audio>
+  <.audio src= "오디오 파일 경로"></audio>
 
 - 비디오 삽입
-  <video>video src="경로" </video>
+  <.video>video src="경로" </video>
   
  오디오 비디오의 태그 속성
  - controls

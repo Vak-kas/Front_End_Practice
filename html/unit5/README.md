@@ -30,7 +30,7 @@
 속성
 <ul>
   <li>텍스트와 비밀번호 나타내기 : type="text", type="password"
-  <br><i>size(필드의 길이지정), value(텍스트 필드 부분에 보여주는 내용, 비번에서는 사용  x), maxlength(최대 문자수)
+  <br><i>size(필드의 길이지정), value(텍스트 필드 부분에 보여주는 내용, 비번에서는 사용  x), maxlength(최대 문자수)</i>
   </li>
 </ul>
 type 추가 

@@ -1,5 +1,6 @@
 <h1>5장 : 입력 양식 작성하기</h1>
 
+<h1> 5-1<h1>
 <h2>폼 삽입하기</h2>
 <p> <.form>[속성 = "속성값"]<./form> 여러 폼 요소</p>
 <ul>
@@ -15,3 +16,12 @@
   <li> fieldset -> 하나의 폼 안에서 여러 구역으로 나누어 표시</li>
   <li> legend : 그룹 이름</li>  
 </ul>
+
+<h2>레이블</h2>
+<p>폼 요소에 레이블을 붙이는 레이블 태그</p>
+사용법 <ul>
+  <li><./label>아이디(6자이상)<input type="text"><./label></li>
+    <li><./label for "user-id">아이디(6자 이상)<./label><br>
+    <input type="text id="user-id"></li>
+</ul>
+

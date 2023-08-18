@@ -39,7 +39,15 @@ type 추가
   <li>type = "url" : 웹 주소 입력</li>
   <li>type = "email" : 이메일</li>
   <li>type= "tel" : 전화번호</li>
-  
 </ul>
+
+체크박스와 라디오 버튼
+<ul>
+  <li> type="checkbox" : 여러 항목 중 2개 이상 선택</li>
+  <li> type = "radio" : 여러 항복 중 1개만</li>
+</ul>
+<p>이때 속성으로 value(서버에 알려줄 때 값 지정, 영문 또는 숫자), checked : 기본으로 선택해놓고 싶은 항목에 사용. 속성값은 다로 없음.
+<br>그리고 radio 에서 name값이 같은 것은 하나만 체크할 수 있으니, name 잘 써먹으셈</p>
+
 
 

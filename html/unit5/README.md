@@ -66,3 +66,24 @@ input type="date | month | week"
   <li>week : 1월 첫째주 기준 지금이 몇 번째 주인가</li>
 </ul>
 
+<h2>시간 입력</h2>
+input type="time | datetime | datetime-local"
+<ul>
+ <li>time : 오전오후/시/분</li>
+ <li>datetime/datetime-local : 지역에 맞는 날짜외 시간</li>
+</ul>
+** 애네도 min, max, step, value 있음
+
+
+
+<h2>전송, 리셋 버튼 나타내기</h2>
+input type="submit | reset" value ="버튼에 표시할 내용"
+
+<p> submit 제출 시, form에 연결된 (action)으로 넘어가지고, reset 버튼 입력시 폼에 입력된 내용 싹 삭제</p>
+
+<h2>이미지 버튼 추가하기</h2>
+input type="image" src="이미지 경로" alt="대체 텍스트"
+
+<h2>그냥 버튼 넣기</h2>
+input type="button" value="버튼에 표시할 내용"
+

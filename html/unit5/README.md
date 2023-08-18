@@ -1,4 +1,4 @@
-<h1>5장 : 입력 양식 작성하기</h1>
+ |<h1>5장 : 입력 양식 작성하기</h1>
 
 <h1> 5-1<h1>
 <h2>폼 삽입하기</h2>
@@ -50,4 +50,19 @@ type 추가
 <br>그리고 radio 에서 name값이 같은 것은 하나만 체크할 수 있으니, name 잘 써먹으셈</p>
 
 
+<h2>숫자 입력 필드</h2>
+
+<ul>
+  <li>type="number" : 스핀 박스가 나타나면서 숫자 를 선택할 수 있음.</li>
+  <li>type="range" : 슬라이드 막대를 움직여 숫자 입력</li>
+</ul>
+<p>이 때 속성으로, min(최소값), max(최대값), step(숫자 간격 지정, value : 필드에 표시할 초기값이 있음.</p>
+
+<h2>날짜 입력</h2>
+input type="date | month | week"
+<ul>
+  <li>date : yyyy-mm-dd 형식으로 연도, 월, 일이 표시</li>
+  <li>month : yyyy-mm 형식으로 연도, 월까지만 입력</li>
+  <li>week : 1월 첫째주 기준 지금이 몇 번째 주인가</li>
+</ul>
 

@@ -96,11 +96,24 @@ input type="hidden" name="이름" value="서버로 넘길값"
 input type="button" value="버튼에 표시할 내용"
 
 
-<h1>5-3 : Input 탯그의 주요 속성</h1>
+<h2>5-3 : Input 탯그의 주요 속성</h2>
 
 - autofucus : 자동으로 입력 커서 갖다 놓기
 - placeholder : 힌트 표시
 - readonly : dlfrrl wjsdyd vlfem
 - required : 필수 입력
+
+<h2>5-4 : 폼에서 사용하는 여러 가지 태그</h2>
+
+- 여러 줄을 입력하는 텍스트 영역 : textarea
+  <br> cols : 텍스트 영역의 가로 너비를 문자 단위로 지정/ rows 텍스트 영역의 세로 길이를 줄 단위로 지정, 스크롤 막대
+
+- 드롭다운 목록 만들어주는 select, option 태그
+  <br> : option value = "값 1" 내용
+  <br> size와 multiple 속성 -> select 태그의 속성
+  <br> value selected -> option 속성
+
+- 데이터 목록 만들기
+  <br> 데이터 목록을 만들기 -> 텍스트 필드에 값을 직접 입력하지 않고 미리 만들어 놓은 값 중에서 선택
 
 

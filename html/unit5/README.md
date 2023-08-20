@@ -95,3 +95,12 @@ input type="hidden" name="이름" value="서버로 넘길값"
 <h2>그냥 버튼 넣기</h2>
 input type="button" value="버튼에 표시할 내용"
 
+
+<h1>5-3 : Input 탯그의 주요 속성</h1>
+
+- autofucus : 자동으로 입력 커서 갖다 놓기
+- placeholder : 힌트 표시
+- readonly : dlfrrl wjsdyd vlfem
+- required : 필수 입력
+
+

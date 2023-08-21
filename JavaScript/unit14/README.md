@@ -12,3 +12,22 @@
 </ol>
 
 <p> var 변수명  으로 변수 선언함</p>
+
+
+<h2>조건문 알아보기</h2>
+<p>if~else문</p>
+if(조건){}
+else if(조건){}
+else{}
+
+
+<p>조건 연산자</p>
+(조건) ? true시 : false시
+
+<p>switch문</p>
+switch(조건){
+case 값1 : 명령1
+break;
+case 값2: 명령 2
+brak....
+default :명령 n}

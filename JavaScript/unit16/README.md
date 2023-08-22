@@ -45,3 +45,42 @@ new 객체명
   <li>sort : 정렬</li>
   <li>toString : 배열에서 지정한 부분을 문자열로 반환</li>
 </ul>
+
+<p>date 객체랑 math 객체 버림 ㅅㄱ</p>
+
+<h2>브라우저와 관련된 객체</h2>
+웹 브라우저 열리면 window 객체 만들어지고, 밑으로 하위 ㅇ ㅛ소에 해당하는 객체들이 나타남.
+<p>window 밑에 document, navigator, history, location, screen</p>
+<p>document 밑에 area, image, form, anchor</p>
+<p>form 밑에 textarea, button, text, checkbox, fileUpload, radio...</p>
+
+<ul>
+  <li>window : 브라우저 창이 열릴때마다 하나씩 만들어짐, 최상위에 있음</li>
+  <li>document : body 태그를 만나면 만들어짐, html 문서의 정보가 담겨있음</li>
+  <li>navigator : 현재 사용하는 브라우저의 정보가 들어있음</li>
+  <li>history : 현재 창에서 사용자의 방문 기록을 저장</li>
+  <li>location : 현재 페이지의 url 정보 담겨 있음</li>
+  <li>screen : 현재 사용하는 화면 정보를 다룸</li>
+
+  <p>지금부터 내용이 좀 많고 처음 보는 것들도 많아서, 일단 정리만 해두고, 나중에 프로젝트 하면서 일일이 찾아보면서 만들어보면서 외워야 할 듯. 일단은 정리만이라도 해둠</p>
+
+  <h3>window 객체의 프로퍼티</h3>
+  <ul>
+    <li>document : 브라우저 창에 표시된 웹 문서에 접근</li>
+    <li>frameElement : 현재 창이 다른 요소 안에 포함되어 있을 경우, 요소 반환, 아니면 null 반환</li>
+    <li>innerHeight : 내용 영역의 높이</li>
+    <li>innerWidth : 내용 영역의 너비를 나타냄</li>
+    <li>localStorage : 웹 브라우저에서 데이터를 저장하는 로컬 스토리지를 반환</li>
+    <li>location : window객체의 위치 또는 현재 URL 나타냄.</li>
+  </ul>
+  개많아서 포기 gg
+
+  <h3>window 객체의 메서드</h3>
+  <ul>
+    <li>alert, confirm, prompt 는 앎</li>
+    <li>open : 새 브라우저 창을 열음 --> open(경로, 창 이름, 창 옵션)</li>
+    <li>close : 브라우저 창을 닫음 -- > button.onclick = "javascript:window.close();"</li>
+  </ul>
+</ul>
+
+<h3>navigator객체</h3>

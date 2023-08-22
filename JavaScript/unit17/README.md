@@ -23,3 +23,23 @@
 <h3>class값으로 접근하는 getElementsByClassName()메서드</h3>
 요소명.getElementByClassName("class명");
 <br> ex) document.getElementsByClassName("bright");
+
+
+<h3>태그 이름으로 getElementsByTagName()메서드</h3>
+요소명.getElementByTagName("태그명");
+<br> ex)document.getElementsByTagName("p");
+
+<h3>다양한 방법으로 접근하는 querySelector(), querySelectorAll()메서드</h3>
+위의 세 개의 메서드의 반환값은 HTMLCollection객체, 여기에는 HTML요소만 저장됨.
+<br>텍스트, 속성까지 자유롭게 제어하려면 querySelector, querySelectorAll을 써야함
+
+<br><br>
+id선택자 처럼 반환값이 하나라면 셀렉터, class선택자나 태그 이름을 사용하여 여러 값이 한꺼번에 반환될 경우 셀렉터 all사용
+<br>
+노드.querySelector(선택자)/노드.querySelectorAll(선택자 또는 태그)
+<br>ex )querySelector("#heading"), querySelector(".bright");
+
+<H2>웹 요소의 내용을 수정하는 innerText, innerHTML 프로퍼티</H2>
+이너텍스트는 텍스트 내용 표시, 이너HTML은 태그까지 반영하여 표시
+<br>요소명.innerText = 내용/요소명.innerHTML = 내용
+

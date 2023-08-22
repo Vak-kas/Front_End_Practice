@@ -43,3 +43,14 @@ id선택자 처럼 반환값이 하나라면 셀렉터, class선택자나 태그
 이너텍스트는 텍스트 내용 표시, 이너HTML은 태그까지 반영하여 표시
 <br>요소명.innerText = 내용/요소명.innerHTML = 내용
 
+<h2>속성을 가져오거나 수정하는 getAttribute(), setAttribute() 메서드</h2>
+웹 요소를 문서에 삽입할 때 태그 속성을 함께 사용하면 DOM트리에 속성 노드가 추가되고, 속성값 저장. 
+<p>getAttribute("속성명")/setAttribute("속성명", "값")</p>
+
+
+<h2>DOM에서 이벤트 처리하기</h2>
+<ul>
+  <li>DOM요소에 함수 직접 연결하기</li>
+  <li>함수 이름을 사용해 연결하기</li>
+</ul>
+

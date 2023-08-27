@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>서민재 전자시계</title>
+</head>
+<body>
+    <h1>서민재 전자시계</h1>
+    <div id="clock">
+        currentTime()
+    </div>
+
+    <script>
+        let now = new Date();
+        // document.write("현재 시각은 " + now.toLocaleString());
+        currentTime();
+
+        function currentTime(){
+            let now = new Date();
+            let hour = now.getHours();
+            let min = now.getMinutes();
+            let second = now.getSeconds();
+            // document.write(hour, min, second);
+
+            const time = hour + " : " + min + " : " + second;
+            // document.write(time); 
+            document.getElementById("clock").innerText = time
+            // document.write(time)
+            setTimeout(() => currentTime(), 1000);
+
+
+        }
+
+
+    </script>
+        
+
+    
+</body>
+</html>
